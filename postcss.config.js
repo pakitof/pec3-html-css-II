@@ -1,14 +1,16 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    'postcss-preset-env': {
+  plugins: [
+    require('postcss-import'),
+    require('tailwindcss/nesting')(require('postcss-nesting')),
+    require('tailwindcss'),
+    require('autoprefixer'),
+    require('postcss-preset-env')({
       stage: 1,
       features: {
-        'nesting-rules': true,
+        'nesting-rules': false,
       },
-    },
-    cssnano: {
+    }),
+    require('cssnano')({
       preset: [
         'default',
         {
@@ -17,6 +19,6 @@ module.exports = {
           },
         },
       ],
-    },
-  },
+    }),
+  ],
 }
