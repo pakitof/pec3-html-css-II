@@ -1,9 +1,9 @@
-@use "normalize.css" as normalize;
-@use "./base/index" as base;
-@use "./layout/index" as layout;
-@use "./module/index" as module;
-@use "./state/index" as state;
-@use "./theme/index" as theme;
-@use "./utils/index" as utils;
-@use "tailwind";
-@use "components";
+@use 'normalize.css' as normalize;
+@use './base/index' as base;
+@use './layout/index' as layout;
+@use './module/index' as module;
+@use './state/index' as state;
+@use './theme/index' as theme;
+@use './utils/index' as utils;
+@use 'tailwind';
+@use 'components';
