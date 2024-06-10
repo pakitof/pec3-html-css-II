@@ -3,7 +3,7 @@
 ## Descripción
 Este proyecto es parte de la asignatura de HTML y CSS II. Consiste en la reconstrucción de un sitio web para un concurso de cocina, utilizando metodologías y herramientas avanzadas como SMACSS, Tailwind CSS, Atomic CSS, y PostHTML. El objetivo es practicar y demostrar habilidades avanzadas en el desarrollo web, incluyendo la organización de un proyecto grande y el uso de herramientas modernas.
 <img width="1067" alt="Screenshot 2024-05-20 at 22 49 02" src="https://github.com/pakitof/pec3-html-css-II/assets/127530418/4390e3ac-9c65-420a-8520-5a5301fa97bb">
-
+https://fascinating-gecko-9b8aa5.netlify.app
 
 ## Instalación
 Para clonar y ejecutar este proyecto, sigue estos pasos:
