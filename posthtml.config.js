@@ -3,5 +3,6 @@ module.exports = {
     require('posthtml-include')({
       root: './src',
     }),
+    require('posthtml-expressions')(),
   ],
 }
