@@ -10,9 +10,11 @@
   </head>
   <body class="bg-main-grey text-main-black flex flex-col min-h-screen">
     <header class="bg-main-orange p-2 text-main-white relative z-20">
-      <nav class="flex items-center justify-between flex-wrap bg-main-orange p-3">
+      <nav class="flex items-center justify-between flex-wrap bg-main-orange p-3 px-4">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img src="logo.e8834704.png" alt="Logo" class="h-10">
+          <a href="index.html">
+            <img src="logo.e8834704.png" alt="Logo" class="h-10">
+          </a>
         </div>
         <div class="block lg:hidden">
           <button id="menu-button" class="flex items-center px-3 py-2 border rounded text-main-white border-teal-400 hover:text-white hover:border-white">
@@ -22,10 +24,10 @@
             </svg>
           </button>
         </div>
-        <div id="menu-content" class="absolute top-full left-0 right-0 transition-all duration-300 ease-in-out transform max-h-0 overflow-hidden opacity-0 lg:opacity-100 lg:max-h-screen lg:translate-y-0 hidden w-full flex-grow lg:flex lg:items-center lg:w-auto lg:justify-end bg-main-orange">
+        <div id="menu-content" class="transition-all duration-300 ease-in-out transform max-h-0 overflow-hidden opacity-0 lg:opacity-100 lg:max-h-screen lg:translate-y-0 hidden w-full flex-grow lg:flex lg:items-center lg:w-auto lg:justify-end bg-main-orange px-4">
           <div class="text-sm lg:flex lg:space-x-4">
-            <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-main-white hover:text-white mr-4">Participantes</a>
-            <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-main-white hover:text-white mr-4">Artículo</a>
+            <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-main-white hover:text-white">Participantes</a>
+            <a href="articulo.html" class="block mt-4 lg:inline-block lg:mt-0 text-main-white hover:text-white">Artículo</a>
             <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-main-white hover:text-white">Galería</a>
           </div>
         </div>
@@ -40,27 +42,27 @@
       </div>
     </div>
 
-    <footer class="bg-main-black text-main-white p-8">
+    <footer class="bg-main-black text-main-white p-8 pl-50 text-left">
       <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 class="text-lg font-bold">Contacto</h3>
-          <ul class="mt-4 space-y-2">
+          <h3 class="text-base font-bold">Contacto</h3>
+          <ul class="mt-4 space-y-2 text-sm">
             <li>Teléfono: 123-456-7890</li>
             <li>Email: info@concursochef.com</li>
             <li>Dirección: Calle Sabor 24, Gourment</li>
           </ul>
         </div>
         <div>
-          <h3 class="text-lg font-bold">Enlaces rápidos</h3>
-          <ul class="mt-4 space-y-2">
+          <h3 class="text-base font-bold">Enlaces rápidos</h3>
+          <ul class="mt-4 space-y-2 text-sm">
             <li><a href="#home" class="hover:text-main-orange">Inicio</a></li>
             <li><a href="#rules" class="hover:text-main-orange">Reglas concurso</a></li>
             <li><a href="#prizes" class="hover:text-main-orange">Premios</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="text-lg font-bold">Redes sociales</h3>
-          <ul class="mt-4 space-y-2">
+          <h3 class="text-base font-bold">Redes sociales</h3>
+          <ul class="mt-4 space-y-2 text-sm">
             <li><a href="https://facebook.com" class="hover:text-main-orange">Facebook</a></li>
             <li><a href="https://twitter.com" class="hover:text-main-orange">Twitter</a></li>
             <li><a href="https://instagram.com" class="hover:text-main-orange">Instagram</a></li>
